@@ -1,48 +1,51 @@
 
 
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
-
-<Head> - 브라우저에게 정보를 주는 태그
+# Head, body
+1. Head - 브라우저에게 정보를 주는 태그
 문서 관련 정보 입력, 웹 브라우저 화면에는 보이지 않음.
 문서에서 사용할 외부 파일 링크
 
 문자 세트 등 문서 정보가 들어있는 <Meta> 태그
 한글로 된 내용을 표시하기 위해서 UTF-8 문자 세트를 사용
-<meta charset="UTF-8">
+meta charset="UTF-8"
 
-
-<body>
+2. body
 실 브라우저에 나타나는 내용
 
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
 
-글자 관련
-<ol></ol> - ordered list 순서가 있는 <li> 태그 포함가능.
-<ul></ul> - unordered list 순서가 없는 리스트
-<h1>~<h9> - 글자크기까지 사용 가능.
+# 글자 관련
+ol - ordered list 순서가 있는 **li** 태그 포함가능.
+ul - unordered list 순서가 없는 리스트
 
-<span> - 뭔가 묶어줄때 사용.
-<p>alskntalkntq<span class="redtext">iwtnl</span>knast,mnas.t</p>
+h1~h9 - 글자크기까지 사용 가능.
 
-ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
-표
+span - 뭔가 묶어줄때 사용.
 
-<caption> 표 제목
-<table> 표 전체
-<tr> 행
-<td> 셀
-<th> 제목 셀(head)
-
+`<p>alskntalkntq<span class="redtext">iwtnl</span>knast,mnas.t</p>`
 
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
-이미지, 오디오, video
-<img src="" alt=>
+# 표
+
+- caption 표 제목
+- table 표 전체
+- tr 행
+- td 셀
+- th 제목 셀(head)
+
+
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+# 이미지, 오디오, video
+
+`<img src="" alt=>
 <audio src="" controls></audio>
-<video src="" ></video>
+<video src="" ></video>`
 
-하이퍼링크
-<a href="" target=""> 
-<a> 태그 + href 속성
+
+# 하이퍼링크
+`<a href="" target=""> 
+<a> 태그 + href 속성`
 
 target 없으면 기존창에서 이동, target 있으면 새탭으로 이동
 
