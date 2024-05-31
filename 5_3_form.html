@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+    <legend>상품 선택</legend>
+        <form>
+            <ul id="shipping">
+                <li>
+                    <label for="prod">주문상품</label>
+                    <input type="text" id="prod" value="상품용 ">
+                </li>
+                <li>
+                    <label><input type="checkbox" value="s-3">3kg</label>
+                    <input type="number" min="0" max="5">개
+                </li>
+                <li>
+                    <label><input type="checkbox" value="s-5">5kg</label>
+                    <input type="number" min="0" max="5" value="2">개
+                </li>
+            </ul>
+
+            <p><b>포장 선택</b></p>
+            <ul>
+                <li>
+                    <label><input type="radio" name="gift" value="yes">포장</label>
+                </li>
+                <li>
+                    <label><input type="radio" name="gift" value="no">포장X</label>
+                </li>
+            </ul>
+        </form>
+    </fieldset>
+</body>
+</html>

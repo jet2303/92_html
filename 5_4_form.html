@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <li>
+        <label for="user-name">이름</label>
+        <input type="text" id="user-name" required>
+    </li>
+    <li>
+        <label for="addr">주소</label>
+        <input type="text" id="addr" value="readonly" readonly>
+    </li>
+    <li>
+        <label for="addr">주소2</label>
+        <input type="text" id="addr" value="readonly" autofocus>
+    </li>
+    <li>
+        <label for="memo">메모</label>
+        <textarea id="memo" cols="40" rows="4"></textarea>
+    </li>
+    <li>
+        <select>
+            <option value="item_1" selected>item1</option>
+            <option value="item_2" >item2</option>
+            <option value="item_3" >item3</option>
+        </select>
+    </li>
+    <label><input type="text" list="goods"></label>
+    <datalist id="goods">
+        <option value="item_1">item1</option>
+        <option value="item_2">item2</option>
+        <option value="item_3">item3</option>
+    </datalist>
+</body>
+</html>
