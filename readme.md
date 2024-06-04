@@ -30,7 +30,36 @@ meta charset="UTF-8"
 <p> alskntalkntq <span class="redtext">iwtnl</span> knastt</p>
 ```
 
+## 주의사항
+<table>
+    <tr>
+        <td> <h2>id</h2></td>
+        <td> <h2>class</h2></td>
+    </tr>
+    <tr>
+        <td># 으로 선택</td>
+        <td>. 으로 선택</td>
+    </tr>
+        <td>한문서에 단 하나의 요소에 사용</td>
+        <td>동일한 값을 갖는 요소 많음</td>
+    <tr>
+        <td>특정 요소에 이름을 붙이는데 사용</td>
+        <td>스타일의 분류(classification)로 사용</td>
+    </tr>
+</table>
+
 <br/>
+
+<br>
+<table>
+    <tr>
+        <td> <h2>div</h2></td>
+        <td> <h2>span</h2></td>
+    </tr>
+    <tr>
+        <td>레이아웃(블록이나 구획)을 구성하거나 그룹화된 마크업이나 콘텐츠에 스타일이나 자바스크립트를 적용하기 위한 컨테이너나, HTML 속성을 적용하기 위한 범위를 나타내기 위한 컨테이너로 사용합니다.</td>
+        <td>단순 텍스트나 텍스트에 관련된 마크업 등 구문 콘텐츠에 스타일이나 자바스크립트를 적용하기 위한 범위를 감싸주거나, HTML 속성을 적용하기 위한 범위를 감싸주기 위해 사용됩니다.</td>
+</table>
 
 # 표
 
@@ -216,3 +245,41 @@ style이 먼저 적용되는 순서
 # JAVASCRIPT
 
 
+```
+var var1 = 1;
+typeof(var1);
+<!-- 값만 같은경우 -->
+var1 == 1;
+<!-- 문자형까지 확인 -->
+var1 === 1;
+```
+
+## 접근자 변수
+var : 지역변수(**재선언 가능**)
+let : 지역변수(**재선언 불가능**), 변수 선언 후 사용가능  
+const : 상수, 재선언 **불가**
+
+
+## 이벤트
+```
+<body>
+    <ul>
+        <li>
+            <button onclick="func('test')">a</button>
+        </li>
+        <li>
+            <button onclick="func('test2')">a</button>
+        </li>
+    </ul>
+
+    <script>
+        function func(str){
+            alert("test");
+        }
+    </script>
+</body>
+```
+
+```
+addEventListener
+```

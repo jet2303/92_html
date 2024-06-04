@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div>
+        <button id="pushButton">push</button>
+    </div>
+    <div id="appendTxt">
+        
+    </div>
+    
+    <script>
+        const btnEvent = document.getElementById("#pushButton");
+
+        btnEvent.addEventListener("onClick", function() {
+            var newObj = document.createElement("p");
+            var newTxtNode = document.createTextNode("추가됨.");
+            newObj.appendChild(newTxtNode);
+            document.querySelector("appendTxt").appendChild(newObj);
+        }  );
+        // document.querySelector("#pushButton").onClick = function() {
+        //     var newObj = document.createElement("p");
+        //     var newTxtNode = document.createTextNode("추가됨");
+        //     newObj.appendChild(newTxtNode);
+        //     document.getElementById("#appendTxt").appendChild(newObj);
+        // }
+    </script>
+
+</body>
+</html>
